@@ -77,5 +77,3 @@ Below is a render of the compact routing layout engineered specifically for this
 Here is the completed, fully assembled quadcopter hardware in its final form, utilizing the custom-designed 4-layer flight controller PCB and ESP32 core stabilization system[cite: 2, 3].
 
 ![Final Quadcopter Build](assets/final_drone.jpg)
-
-> **Note:** If you saved your image with a different name or in a different folder (for example, right in the main folder as `my_drone.png`), just change `assets/final_drone.jpg` in the code above to match your exact filename!
