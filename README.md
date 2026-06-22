@@ -8,7 +8,7 @@ An advanced, compact 4-axis flight controller built entirely around the ESP32 mi
 
 ## 🚀 Key Features
 
-* **Custom 4-Layer PCB:** Designed with dedicated Ground (GND), Power, and two high-speed data routing layers to optimize space and minimize signal interference.
+* **Custom 4-Layer PCB:** Designed with dedicated Ground (GND), Power, and two data routing layers to optimize space and minimize signal interference.
 * **6-Axis Inertial Navigation:** Utilizes the MPU6050 IMU to calculate high-precision tilt angles (Pitch/Roll) and angular velocity via its internal Digital Motion Processor (DMP).
 * **Real-Time Bluetooth Tuning:** Dynamically adjust PID coefficients and request battery voltage monitoring on-the-fly using a Bluetooth terminal application.
 * **I-Bus Protocol Receiver Integration:** Decodes multichannel inputs from a FLY-SKY FS-i6X radio transmitter natively over hardware UART.
@@ -24,7 +24,7 @@ An advanced, compact 4-axis flight controller built entirely around the ESP32 mi
 * **IMU Sensor:** MPU6050 Module
 * **RC Receiver:** FLY-SKY FS-i6X (I-Bus compatible)
 * **Actuators:** 4x Brushless DC Motors with Electronic Speed Controllers (ESCs)
-* **Power Supply:** 4S Li-Po Battery (1550 mAh) stepped down via a high-efficiency DC-DC buck converter
+* **Power Supply:** 4S Li-Po Battery (1550 mAh) stepped down via a DC-DC buck converter
 
 ### Pin Mapping Configurations
 
